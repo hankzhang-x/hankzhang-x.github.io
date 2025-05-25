@@ -14,7 +14,7 @@ weight: 3
 
 Team Members: Hank Zhang, Yuan Tu, Zhanbo Zhang, Ge Zhang
 
-<embed src="/images/project/3/1.pdf" type="application/pdf" width="100%" height="1000" />
+<embed src="/images/project/3/1.pdf" type="application/pdf" width="100%" height="700" />
 
 This interdisciplinary project was developed during our first-year studio as a comprehensive exploration of extraterrestrial habitation. Our team proposed a phased Mars base strategy—from initial robotic exploration and early-stage habitat construction to the development of scalable communities and long-term terraforming vision. The proposal integrated architectural, scientific, and technological perspectives, including autonomous robotic systems, in-situ resource utilization, and 3D-printed habitat models.
 
