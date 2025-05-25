@@ -29,7 +29,7 @@ Professor Qiu Jun praised it as “the best first-year annual project I have eve
 
 Team Members: Naisi Hua, Ke Ye, Xiaotian Cheng, Ran Wang, Feiyu Gao, Hank Zhang, Shuqi Li, Jiayang Jiang
 
-<img src="/images/project/3/2.jpg" style="max-width:100%"> </img>
+<img src="/images/project/3/2.png" style="max-width:100%"> </img>
 
 DIVER explores the possibility of establishing the first manned lunar base within the Moon’s lava tubes—natural formations offering both protection and scientific value. Addressing the tension between the psychological need for openness and the spatial constraints of underground habitats, the project proposes a modular, mobile, and expandable architecture that mimics the adaptive movement of a snake.
 
