@@ -33,7 +33,7 @@ Guided by this vision, the proposal sets three design goals:
 
 ## Video Demonstration
 
-<video src="/images/project/4/1.mp4"  controls style="max-width:100%">
+<video src="/images/project/4/1.mp4"  controls style="max-width:100%"></video>
 
 <img src="/images/project/4/5.png" style="max-width:100%"> </img>
 
