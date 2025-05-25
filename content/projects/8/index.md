@@ -6,7 +6,7 @@ draft: false
 
 summary: "Empowering Sports, Health, and Science with Neural Signal Decoding"
 
-weight: 3
+weight: 1
 ---
 
 ## Company Introduction
