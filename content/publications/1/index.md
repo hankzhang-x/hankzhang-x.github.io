@@ -7,4 +7,4 @@ draft: fasle
 summary: "Hank Zhang, Yuxiao Wang*, Le Xu, Huating Cong, Chen Li, Junjie Lu and Jianhao Chen"
 ---
 
-<embed src="/images/Publication 1.pdf" type="application/pdf" width="100%" height="1000" />
+<embed src="/images/publication/1.pdf" type="application/pdf" width="100%" height="1000" />
