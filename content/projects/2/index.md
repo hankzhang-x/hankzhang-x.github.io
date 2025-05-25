@@ -70,16 +70,13 @@ but a multisensory experience of the Yangtze tide in Changshu.
 
 <img src="/images/project/2/7.png" style="max-width:100%"> </img>
 
-### We sincerely thank Professor Mao Dongxing and his team from Tongji University for their technical support in acoustic metamaterials.
-
+We sincerely thank Professor Mao Dongxing and his team from Tongji University for their technical support in acoustic metamaterials.
 
 ##  Video Demonstration
-
 
 <video src="/images/project/2/1.mp4"  controls style="max-width:100%">
 
 ##  Acoustic Metamaterials
-
 
 <video src="/images/project/2/2.mp4"  controls style="max-width:100%">
 
