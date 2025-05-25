@@ -1,0 +1,63 @@
+baseURL = "https://hankblog.pages.dev"
+languageCode = "en-us"
+title = "Hank Zhang"
+theme = "hugo-digital-garden-theme"
+copyright = "Hank Zhang ©"
+staticDir = ['asserts']
+
+[params]
+  name = "Hank Zhang"
+  description = "A Human-Centered"
+  initials = "HZ"
+  googleAnalytics = ""
+  techdescription="Technologist"
+
+
+[menu]
+  [[menu.main]]
+    name = "Digital Garden"
+    url = "/garden/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/Projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Publications"
+    url = "/Publications/"
+    weight = 4
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
+
+
+[taxonomies]
+  garden_tags = 'garden_tags'
+  project_tags = 'project_tags'
+  Startups_tags = 'Startups_tags'
+  Publications_tags = 'Publications_tags'
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.parser]
+    autoHeadingID = true
+    autoHeadingIDType = 'github'
+    wrapStandAloneImageWithinParagraph = true
+    [markup.goldmark.parser.attribute]
+      block = false
+      title = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [markup.highlight]
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style = 'monokailight'
