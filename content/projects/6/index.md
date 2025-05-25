@@ -14,4 +14,4 @@ This bridge is a public-interest infrastructure project located in Liugaoshou Vi
 
 Our proposal balanced economic feasibility with ecological sensitivity, addressing both functional connectivity and environmental integration. The project was recognized with the “Outstanding Practice Award” for its social impact and design effectiveness.
 
-<embed src="/images/project/1.pdf" type="application/pdf" width="100%" height="1000" />
+<embed src="/images/project/6/1.pdf" type="application/pdf" width="100%" height="1000" />
