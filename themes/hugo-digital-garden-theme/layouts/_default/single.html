@@ -1,3 +1,8 @@
+{{ $img := (.Resources.ByType "image").GetMatch "*feature*" }}
+{{ with $img }}
+  <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" style="width: 100%; max-height: 400px; object-fit: cover; margin-bottom: 2rem;">
+{{ end }}
+
 {{ define "main" }}
 
 <div class="container" style="max-width: 800px;">
