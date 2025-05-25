@@ -15,9 +15,11 @@ WeeHive is an innovative smart beekeeping platform designed to cater to the need
 
 WeeHive won the 2023 Young Climate Prize, 2023 China Internet Plus Competition Bronze Price, and the project is selected to be presented on IDEO and MIT Climate Energy Price Conference. Now it received MIT Sandbox Innovation Fund and continue developing to the next phase.
 
+<embed src="/images/project/7/1.pdf" type="application/pdf" width="100%" height="300" />
+
 ## Members
 
-<img src="/images/project/7/2.jpg" style="max-width:100%"> </img>
+<img src="/images/project/7/2.png" style="max-width:100%"> </img>
 
 ## Project
 
