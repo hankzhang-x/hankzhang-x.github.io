@@ -51,4 +51,6 @@ Lightweight, modular, and easy to wear, NeuroRehab Core helps users engage in mo
 
 <img src="/images/project/8/5.png" style="max-width:100%"> </img>
 
+<img src="/images/project/8/6.png" style="max-width:100%"> </img>
+
 #### More products are currently under development, including our recent collaboration with China-Japan Friendship Hospital on an EMG-based neck rehabilitation device for post-eye-surgery recovery. Stay tuned for future updates... ...
