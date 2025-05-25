@@ -1,24 +1,38 @@
 {{ define "main" }}
 
 <div class="container">
-    <div class="py-5 rounded-3">
-        <div class="container-fluid py-2">
-            <h1 class="display-2 mb-4">{{ .Title }}</h1>
-            <p class="bio col-md-8 fs-4 serif">{{ .Summary }}</p>
-        </div>
+  <div class="py-5 rounded-3">
+    <div class="container-fluid py-2">
+      <h1 class="display-2 mb-4">{{ .Title }}</h1>
+      <p class="bio col-md-8 fs-4 serif">{{ .Summary }}</p>
     </div>
+  </div>
 </div>
 
 <div class="container">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     {{ range .Pages.ByPublishDate.Reverse }}
-    <p>
-        <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        {{ partial "metadata.html" . }}
-        <a class="summary" href="{{ .RelPermalink }}">
-            <p>{{ .Summary }}</p>
-        </a>
-    </p>
+      <div class="col">
+        <div class="card h-100">
+          {{ $img := (.Resources.ByType "image").GetMatch "*feature*" }}
+          {{ with $img }}
+            <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="card-img-top" style="object-fit: cover; width: 100%; max-height: 300px;">
+          {{ end }}
+          <div class="card-body">
+            <h5 class="card-title">{{ .Title }}</h5>
+            {{ with .Params.description }}
+              <p class="card-text">{{ . }}</p>
+            {{ else }}
+              {{ with .Summary }}
+                <p class="card-text">{{ . }}</p>
+              {{ end }}
+            {{ end }}
+          </div>
+          <a href="{{ .RelPermalink }}" class="stretched-link"></a>
+        </div>
+      </div>
     {{ end }}
+  </div>
 </div>
 
 {{ end }}
