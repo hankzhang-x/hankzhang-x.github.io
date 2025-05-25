@@ -6,7 +6,7 @@ draft: false
 
 summary: "Digital Design & Fabrication | Physical Workshop"
 sub_summary: "DigitalFUTURES 2023, Tongji University"
-weight: 3
+weight: 2
 ---
 
 

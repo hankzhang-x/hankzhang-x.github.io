@@ -6,7 +6,7 @@ draft: false
 
 summary: "A Multisensory Soundscape Experience"
 sub_summary: "Hank Zhang, Xinyuan Kong, Liwen Zhang, Yi Xiang, Sutong Gu"
-weight: 3
+weight: 2
 ---
 
 <img src="/images/project/2/1.png" style="max-width:100%"> </img>
