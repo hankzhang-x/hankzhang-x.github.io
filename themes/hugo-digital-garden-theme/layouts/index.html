@@ -35,26 +35,45 @@
     	
 		<!-- Projects -->
 		<div class="col-lg-7">
-			{{ with .Site.GetPage "section" "projects" }}
+		{{ with .Site.GetPage "section" "projects" }}
 			<div class="pb-4">
-				<a class="heading fs-2" href="{{ .RelPermalink }}">{{ .Title }}</a>
-			</div>          
-			{{ if .Summary }} 
-			<p class="subheading">{{ .Summary }}</p> 
+			<a class="heading fs-2" href="{{ .RelPermalink }}">{{ .Title }}</a>
+			</div>
+			{{ if .Summary }}
+			<p class="subheading">{{ .Summary }}</p>
 			{{ end }}
+		{{ end }}
+
+		<div class="row row-cols-1 row-cols-md-2 g-4 mb-5" data-masonry='{"percentPosition": true }'>
+			{{ range ( where site.RegularPages "Section" "projects" | first 4 ) }}
+			<div class="col">
+				<div class="card h-100">
+				{{ $img := (.Resources.ByType "image").GetMatch "*feature*" }}
+				{{ with $img }}
+					<img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="card-img-top" style="object-fit: cover; width: 100%; height: auto;">
+				{{ end }}
+				<div class="card-body">
+					<h5 class="card-title">{{ .Title }}</h5>
+					{{ with .Params.description }}
+					<p class="card-text">{{ . }}</p>
+					{{ end }}
+					{{ with .Date }}
+					<small class="text-muted">{{ .Format "Jan 2, 2006" }}</small>
+					{{ end }}
+				</div>
+				<a href="{{ .RelPermalink }}" class="stretched-link"></a>
+				</div>
+			</div>
 			{{ end }}
-			<div class="row row-cols-1 row-cols-md-2 g-4 mb-5" data-masonry='{"percentPosition": true }'>
-				{{ range ( where site.RegularPages "Section" "projects" | first 4 ) }}
-				{{ partial "home_project.html" . }}
-				{{end}}
-    		</div>
-			{{ with .Site.GetPage "section" "projects" }}
+		</div>
+
+		{{ with .Site.GetPage "section" "projects" }}
 			<div class="d-flex flex-row-reverse">
-				<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all projects</a>
-			</div>    
-			{{ end }}
-  		</div>
-	</div>
+			<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all projects</a>
+			</div>
+		{{ end }}
+		</div>
+
 
 	<!-- Library -->
 	<div class="container py-3">
