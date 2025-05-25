@@ -6,11 +6,23 @@ summary: |
   <span style="font-size:0.8em;">Product Manager, OpeNeuro Tech. Co., Ltd.</span>
 ---
 
-<!-- 1️⃣ 先放照片，让它参与浮动定位 -->
-<img src="/images/about/1.jpg"
-     class="float-md-end ms-md-4 mb-3 mt-md-1 d-block w-100 w-md-auto rounded shadow-sm"
-     style="max-width:260px;" alt="Hank Zhang" />
+<div class="row align-items-start">
+
+<!-- 左侧文字：占 8/12 宽 -->
+<div class="col-md-8">
 
 I’m someone who cares about the relationship between technology and people—and how ideas turn into things that matter. I’m less interested in fixed titles, and more focused on asking the right questions, building real systems, and making them work.
 
 I move between disciplines, but my core stays the same: to think clearly, build thoughtfully, and take responsibility.
+
+</div>
+
+<!-- 右侧照片：占 4/12 宽 -->
+<div class="col-md-4 text-center">
+  <img src="/images/about/1.jpg"
+       class="img-fluid rounded shadow-sm mb-4"
+       style="max-width: 300px;"  <!-- ← 可调宽度 -->
+       alt="Hank Zhang">
+</div>
+
+</div>
