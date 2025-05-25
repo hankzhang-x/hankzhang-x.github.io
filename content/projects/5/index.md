@@ -1,7 +1,7 @@
 ---
 title: "OCEANIC NEXUS"
-date: 2023-06-24
-end_date: 2023.07.01
+date: 2025-02
+end_date: 2025-04
 draft: false
 
 summary: "Driven by Data Centers Based on Energy and Information Cycles"

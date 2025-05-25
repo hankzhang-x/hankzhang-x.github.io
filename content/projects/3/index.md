@@ -1,7 +1,7 @@
 ---
 title: "Extraterrestrial Architecture"
-date: 2023-06-24
-end_date: 2023.07.01
+date: 2021-10
+end_date: 2023-06
 draft: false
 
 summary: "Living Beyond Earth: Habitats for Mars and the Moon"

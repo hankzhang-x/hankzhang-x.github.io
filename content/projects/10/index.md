@@ -1,7 +1,7 @@
 ---
 title: "The Loop: Gyumri Market &Culnary School"
-date: 2023-06-24
-end_date: 2023.07.01
+date: 2024-07
+end_date: 2024-07
 draft: false
 
 summary: "TUMO CENTER FOR CREATIVE TECHNOLOGIES"

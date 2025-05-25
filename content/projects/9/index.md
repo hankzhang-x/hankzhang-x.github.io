@@ -1,7 +1,7 @@
 ---
 title: "IceCity Intelligence Valley"
-date: 2024-11-24
-end_date: 2024-11-24
+date: 2024-09
+end_date: 2024-11
 draft: false
 
 summary: "Urban Design for the Harbin Science and Innovation Park"
