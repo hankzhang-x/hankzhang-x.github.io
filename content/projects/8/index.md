@@ -35,7 +35,7 @@ NeoFit is our first consumer-facing wearable designed to capture high-quality, l
 
 Video Demonstration
 
-<video src="/images/project/8/1.mp4"  controls style="max-width:100%">
+<video src="/images/project/8/1.mp4"  controls style="max-width:100%"></video>
 
 ### Smart Finger (2024)
 

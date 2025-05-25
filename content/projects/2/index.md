@@ -74,11 +74,11 @@ We sincerely thank Professor Mao Dongxing and his team from Tongji University fo
 
 ##  Video Demonstration
 
-<video src="/images/project/2/1.mp4"  controls style="max-width:100%">
+<video src="/images/project/2/1.mp4"  controls style="max-width:100%"></video>
 
 ##  Acoustic Metamaterials
 
-<video src="/images/project/2/2.mp4"  controls style="max-width:100%">
+<video src="/images/project/2/2.mp4"  controls style="max-width:100%"></video>
 
 ## Futher Presentation
 
