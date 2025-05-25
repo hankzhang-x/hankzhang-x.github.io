@@ -1,50 +1,43 @@
 ---
-title: "Co-Intelligent Assemblies"
+title: "Extraterrestrial Architecture"
 date: 2023-06-24
 end_date: 2023.07.01
 draft: false
 
-summary: "Digital Design & Fabrication | Physical Workshop"
-sub_summary: "DigitalFUTURES 2023, Tongji University"
+summary: "Living Beyond Earth: Habitats for Mars and the Moon"
+
 weight: 3
 ---
 
 
-## TOPIC
+## Red Coast: Mars Base Design Project
 
-The workshop investigated potential of the Imitation learning, the deep reinforcement learning approach in a computational and fabrication framework to generate a small / middle scale spatial scenario (potentially to be used as an insect hotel or a habitat for birds).
+Team Members: Hank Zhang, Yuan Tu, Zhanbo Zhang, Ge Zhang
 
+This interdisciplinary project was developed during our first-year studio as a comprehensive exploration of extraterrestrial habitation. Our team proposed a phased Mars base strategy—from initial robotic exploration and early-stage habitat construction to the development of scalable communities and long-term terraforming vision. The proposal integrated architectural, scientific, and technological perspectives, including autonomous robotic systems, in-situ resource utilization, and 3D-printed habitat models.
 
-## CONTENT
+The project was recognized for its innovation and depth:
+1st Place in Proposal Defense,
+1st Place in Midterm Review,
+3rd Place in Final Evaluation.
 
-
-<img src="/images/project/1/2.jpg" style="max-width:100%"> </img>
-
-The computational method incorporated a user-defined kit of parts delivered through the Design For Manufacture and Assembly method of production. The framework encompassed human inputs during the process from which the AI will learn its principles and try to reinterpret them in a novel form (either through the cloning or improved imitation) in the digital space. The workshop idea was built on the hypothesis suggesting that unique design provided by a demonstrator (a designer, who is a master builder) could be translated into forms of digital data and processes, and reinterpreted by the AI in an augmented scenario and produced in the fabrication process. The process combines human and artificial intelligence, aiming to address human designers’ intuitive approach to design and consequently imitated and augmented by AI, following the human-in-the-loop method of mutual co-creative interaction.
-
-## Design Scheme
-
-
-### Digital Gothic: Elliptical Reconfiguration Assembly
-
-<img src="/images/project/1/3.jpg" style="max-width:100%"> </img>
+Professor Qiu Jun praised it as “the best first-year annual project I have ever seen.”
 
 
-This project presents an interactive art installation that blends generative design with machine learning. Starting from a simple circular form, the shape gradually transforms into a series of elongated ovals—an abstract homage to the evolution of Gothic architecture in classical Europe.
 
+## DIVER: A Mobile Lunar Habitat within Lava Tubes
 
-The structure’s fluid curves and dramatic verticality evoke a sense of mystery and grandeur. Behind the form lies a process of learning and iteration: the design is informed by patterns derived from manually recorded data, subtly shaped by digital tools.
+Team Members: Naisi Hua, Ke Ye, Xiaotian Cheng, Ran Wang, Feiyu Gao, Hank Zhang, Shuqi Li, Jiayang Jiang
 
-As visitors approach, they are drawn in by the shifting geometry, spatial presence, and emotional resonance of the piece. The installation invites them to experience a dialogue between past and future, where art and technology converge to reimagine historical beauty through contemporary expression.
+<img src="/images/project/3/2.jpg" style="max-width:100%"> </img>
 
+DIVER explores the possibility of establishing the first manned lunar base within the Moon’s lava tubes—natural formations offering both protection and scientific value. Addressing the tension between the psychological need for openness and the spatial constraints of underground habitats, the project proposes a modular, mobile, and expandable architecture that mimics the adaptive movement of a snake.
 
-## Fabrication Exhibition
+The station operates as a bi-directional, self-propelled research machine, navigating rugged terrain through a tracked suspension system while collecting lunar resources and scientific samples via its responsive skin.
 
-<img src="/images/project/1/4.jpg" style="max-width:100%"> </img>
-<img src="/images/project/1/5.jpg" style="max-width:100%"> </img>
-<img src="/images/project/1/6.jpg" style="max-width:100%"> </img>
+Constructed from shape-memory alloy skeletons (transported from Earth), 3D-printed regolith walls, and crawler-based cladding, each module is equipped with an independent airlock and watertight sealing system—enabling resilience, isolation, and continuous function.
 
-##  Video Demonstration
+DIVER transforms the lunar base from a static shelter into a living, evolving exploratory tool, merging architecture, mobility, and science.
 
+This project was awarded Gold Mention (4th Place internationally) in the Moon Habitat Competition jointly organized by YAC and the European Space Agency.
 
-<video src="/images/project/1/1.mp4"  controls style="max-width:100%">
