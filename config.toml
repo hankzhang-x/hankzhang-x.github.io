@@ -7,10 +7,9 @@ staticDir = ['asserts']
 
 [params]
   name = "Hank Zhang"
-  description = "A Human-Centered"
+  description = "A Human-Centered TechDesigner"
   initials = "HZ"
   googleAnalytics = ""
-  techdescription="Technologist"
 
 
 [menu]
@@ -21,21 +20,20 @@ staticDir = ['asserts']
   [[menu.main]]
     name = "Projects"
     url = "/Projects/"
-    weight = 3
+    weight = 2
   [[menu.main]]
     name = "Publications"
     url = "/Publications/"
-    weight = 4
+    weight = 3
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 4
 
 
 [taxonomies]
   garden_tags = 'garden_tags'
   project_tags = 'project_tags'
-  Startups_tags = 'Startups_tags'
   Publications_tags = 'Publications_tags'
 
 
