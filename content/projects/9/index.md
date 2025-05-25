@@ -29,5 +29,6 @@ By transforming underutilized industrial and academic land into a high-efficienc
 
 ## Video Demonstration
 
-<video src="/images/project/9/1.mp4"  controls style="max-width:100%">
+<video src="/images/project/9/1.mp4" controls style="max-width:100%"> </video>
+
 
