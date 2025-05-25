@@ -23,7 +23,7 @@ The project was recognized for its innovation and depth:
 1st Place in Midterm Review,
 3rd Place in Final Evaluation.
 
-Professor Qiu Jun praised it as “the best first-year annual project I have ever seen.”
+#### Professor Qiu Jun praised it as “the best first-year annual project I have ever seen.”
 
 
 
@@ -41,5 +41,5 @@ Constructed from shape-memory alloy skeletons (transported from Earth), 3D-print
 
 DIVER transforms the lunar base from a static shelter into a living, evolving exploratory tool, merging architecture, mobility, and science.
 
-This project was awarded Gold Mention (4th Place internationally) in the Moon Habitat Competition jointly organized by YAC and the European Space Agency.
+#### This project was awarded Gold Mention (4th Place internationally) in the Moon Habitat Competition jointly organized by YAC and the European Space Agency.
 
