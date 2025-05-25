@@ -1,9 +1,10 @@
 ---
-title: "A Data-Driven Optimization Control Framework for Adaptive Solar Façades Balancing Photovoltaic Performance and Indoor Environment"
-author: "CAADRIA 2025: Architectural Informatics"
-place: "At: Tokyo, Japan"
+title: "From Olive Groves to Urban Buildings: Olea Europaea-Inspired Adaptive Photovoltaic Façades for Balancing Energy Efficiency and Visual Comfort"
+author: "Advanced Building Skins 2024"
+place: "At: Bern, Switzerland"
 date: 2021-07-10
 draft: fasle
-summary: "Hank Zhang, Yuxiao Wang*, Le Xu, Huating Cong, Chen Li, Junjie Lu and Jianhao Chen"
+summary: "Hank Zhang, Yuxiao Wang*, Yucun Chen, Liwen Zhang, Zeyu Wang"
 ---
 
+<embed src="/images/publication/3.pdf" type="application/pdf" width="100%" height="1000" />
