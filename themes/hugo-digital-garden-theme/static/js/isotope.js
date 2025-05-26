@@ -35,3 +35,13 @@ $checkboxes.change( function() {
 //       $( this ).addClass('is-checked');
 //     });
 // });
+
+
+
+
+
+  var typed = new Typed('#typingss', {
+      strings: ['Technologist', 'Designer',"Entrepreneur","Dreamer"],
+      typeSpeed: 50,
+      loop: true,
+  });
