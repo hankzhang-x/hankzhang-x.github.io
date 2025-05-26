@@ -1,35 +1,49 @@
 {{ define "main" }}
 
-<!-- Title and summary -->
-
+<!-- 整个页面最外层容器，限制最大宽度 -->
 <div class="container mt-5" style="max-width: 1000px;">
-        <div class="row justify-content-center g-4">
-            <div class="col-xs-12 col-sm-4">
-                <div class="text-center">
-                    <img src="{{ .Permalink }}" class="rounded card-img-top" style="max-width: 250px;">
-                </div>
-                {{ end }}
-            </div>
-            <div class="col-sm-7">
-                    {{ if .Summary | safeHTML }} 
-                    <h5 class="card-title display-2">{{ .Title }}</h5>
-                    <p class="serif fs-2 pb-3">{{ .Summary }}</p>
-                    {{ else }}
-                    <h5 class="card-title display-2 pb-3">{{ .Title }}</h5>
-                    {{ end }}
-                    <p>
-                        <figcaption class="blockquote-footer fs-5">
-                          {{ .Params.Author}}
-                        </figcaption>
-                      </p>
-            </div>
-        </div>
 
-    <div class="container py-2">
-        <div class="serif main-content p-5">
-            {{ .Content | markdownify | safeHTML }}
+  <div class="row justify-content-center g-4">
+
+    <!-- 左侧：封面图 -->
+    <div class="col-xs-12 col-sm-4">
+      {{/* 只有当 featured 图片存在时才渲染它 */}}
+      {{ with (.Resources.ByType "image").GetMatch "*featured*" }}
+        {{ $cover := .Fit "250x" }}   {{/* 裁剪到宽250，高自适应 */}}
+        <div class="text-center">
+          <img src="{{ $cover.RelPermalink }}"
+               class="rounded card-img-top"
+               style="max-width: 250px;"
+               alt="{{ $.Title }}" />
         </div>
+      {{ end }}
     </div>
 
+    <!-- 右侧：标题 / 摘要 / 作者 -->
+    <div class="col-sm-7">
+      {{ if .Summary }}  <!-- 如果有 summary，就显示标题+摘要 -->
+        <h1 class="display-2">{{ .Title }}</h1>
+        <p class="serif fs-2 pb-3">{{ .Summary }}</p>
+      {{ else }}         <!-- 否则只显示标题 -->
+        <h1 class="display-2 pb-3">{{ .Title }}</h1>
+      {{ end }}
+
+      {{ with .Params.Author }}  <!-- 如果 front matter 有 Author 字段，就显示作者名 -->
+        <figcaption class="blockquote-footer fs-5">
+          {{ . }}
+        </figcaption>
+      {{ end }}
+    </div>
+
+  </div>
+
+  <!-- 正文内容区域 -->
+  <div class="py-2">
+    <div class="serif main-content p-5">
+      {{ .Content | safeHTML }}
+    </div>
+  </div>
+
 </div>
+
 {{ end }}
