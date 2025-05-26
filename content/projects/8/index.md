@@ -11,9 +11,9 @@ weight: 1
 
 ## Company Introduction
 
-OpeNeuro is a forward-looking startup positioned at the intersection of neural signal decoding and next-generation AI models. In the era of foundation models, while global giants like OpenAI and Google Gemini are rapidly advancing in language, vision, and motion domains, neural signals—an essential yet underexplored modality in human-machine interaction—remain largely untapped. YuanQing aims to pioneer this frontier, striving to become the “OpenAI of neural signals”.
+OpeNeuro is a forward-looking startup positioned at the intersection of neural signal decoding and next-generation AI models. In the era of foundation models, while global giants like OpenAI and Google Gemini are rapidly advancing in language, vision, and motion domains, neural signals—an essential yet underexplored modality in human-machine interaction—remain largely untapped. OpeNeuro aims to pioneer this frontier, striving to become the “OpenAI of neural signals”.
 
-Aligned with China’s national development goals and the 14th Five-Year Plan, OpeNeuro focuses on transforming neural signal technology into new productive forces. The company’s core platform, OpenNeuro, supports a scalable neural signal ecosystem across three major verticals: data acquisition, signal decoding, and interactive application. By anchoring its first application in the sports and wellness industry, YuanQing addresses high-potential markets such as neurorehabilitation, brain-computer interaction, and smart sports analytics.
+Aligned with China’s national development goals and the 14th Five-Year Plan, OpeNeuro focuses on transforming neural signal technology into new productive forces. The company’s core platform, OpenNeuro, supports a scalable neural signal ecosystem across three major verticals: data acquisition, signal decoding, and interactive application. By anchoring its first application in the sports and wellness industry, OpeNeuro addresses high-potential markets such as neurorehabilitation, brain-computer interaction, and smart sports analytics.
 
 With innovation at its core, OpeNeuro is committed to shaping a new era where neural intelligence bridges human potential and machine capability—unlocking transformative possibilities for health, science, and society.
 
