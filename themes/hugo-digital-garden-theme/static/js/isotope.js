@@ -42,6 +42,6 @@ $checkboxes.change( function() {
 
   var typed = new Typed('#typingss', {
       strings: ['Technologist', 'Designer',"Entrepreneur","Dreamer"],
-      typeSpeed: 50,
+      typeSpeed: 100,
       loop: true,
   });
