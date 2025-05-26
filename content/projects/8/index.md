@@ -1,5 +1,5 @@
 ---
-title: "OpeNeuro Startups"
+title: "OpeNeuro Startup"
 date: 2023-05-03
 lastmod: 2025-04-30
 draft: false
@@ -19,7 +19,7 @@ With innovation at its core, OpeNeuro is committed to shaping a new era where ne
 
 The project was showcased at the Zhongguancun International Conference Center and received strong recognition from multiple top-tier venture capital firms. The Director of the Beijing Municipal Development and Reform Commission expressed high-level support, encouraging the rapid advancement of the project.
 
-#### Additionally, the project received a 5-million-RMB investment intent from Dr. Lu Qi, founding partner of MiraclePlus.
+**Additionally, the project received a 5-million-RMB investment intent from Dr. Lu Qi, founding partner of MiraclePlus.**
 
 <img src="/images/project/8/1.png" style="max-width:100%"> </img>
 
@@ -53,4 +53,4 @@ Lightweight, modular, and easy to wear, NeuroRehab Core helps users engage in mo
 
 <img src="/images/project/8/6.png" style="max-width:100%"> </img>
 
-#### More products are currently under development, including our recent collaboration with China-Japan Friendship Hospital on an EMG-based neck rehabilitation device for post-eye-surgery recovery. Stay tuned for future updates... ...
+**More products are currently under development, including our recent collaboration with China-Japan Friendship Hospital on an EMG-based neck rehabilitation device for post-eye-surgery recovery. Stay tuned for future updates... ...**
