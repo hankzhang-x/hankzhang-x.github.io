@@ -1,7 +1,7 @@
 ---
 title: "Co-Intelligent Assemblies"
 date: 2023-06-24
-end_date: 2023.07.01
+lastmod: 2023.07.01
 draft: false
 
 summary: "Digital Design & Fabrication | Physical Workshop"

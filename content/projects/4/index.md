@@ -1,7 +1,7 @@
 ---
 title: "Sky City: Institute for Low-Altitude Economy"
 date: 2024-10-29
-end_date: 2025-01-03
+lastmod: 2025-01-03
 draft: false
 
 summary: "Where Architecture Meets the Aerial Future"

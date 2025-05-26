@@ -1,7 +1,7 @@
 ---
 title: "WeeHive"
 date: 2024-02-01
-end_date: 2025-02-01
+lastmod: 2025-02-01
 draft: false
 
 summary: "A Collaborative Beekeeeping Solution for Uncertain Climate Era"
