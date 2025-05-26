@@ -1,7 +1,7 @@
 ---
 title: "Fuyun Bridge"
-date: 2024-07
-end_date: 2024-12
+date: 2024-07-21
+end_date: 2024-12-21
 draft: false
 
 summary: "Mao Yisheng Public Welfare Bridge—Small Bridge Project"

@@ -1,6 +1,7 @@
 ---
 title: "OpeNeuro Startups"
-date: 2023-05
+date: 2023-05-03
+end_date: 2025-04.30
 draft: false
 
 summary: "Empowering Sports, Health, and Science with Neural Signal Decoding"
