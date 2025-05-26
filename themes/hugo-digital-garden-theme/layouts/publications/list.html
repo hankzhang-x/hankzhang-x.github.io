@@ -1,40 +1,38 @@
 {{ define "main" }}
-{{ define "main" }}
 
 <!-- Title and summary -->
-<div class="container mt-5" style="max-width:1000px;">
-  <div class="row justify-content-center g-4">
-    <div class="col-12 text-center">
-      <h1 class="display-4 mb-2">{{ .Title }}</h1>
-      <p class="lead text-muted">{{ .Summary }}</p>
+<div class="container">
+    <div class="py-5 rounded-3">
+        <div class="container-fluid py-2">
+            <h1 class="display-2 mb-4">{{ .Title }}</h1>
+            <p class="bio col-md-8 fs-4 serif">{{ .Summary }}</p>
+        </div>
     </div>
-  </div>
 </div>
 
 <!-- Filter Buttons -->
-<div class="container mb-4">
-  <div class="btn-toolbar" role="toolbar">
-    <i class="fas fa-filter me-2"></i>
-    <div id="filters" class="btn-group" role="group">
-      {{/* 从 Publications_tags 里取所有标签 */}}
-      {{ range $name, $taxonomy := .Site.Taxonomies.publications_tags }}
-        {{ $btnid := printf "js-iso-%s" (urlize $name) }}
-        <input type="checkbox" class="btn-check" id="{{ $btnid }}" autocomplete="off" data-filter=".{{ $btnid }}">
-        <label class="btn btn-outline-primary" for="{{ $btnid }}">{{ $name }}</label>
-      {{ end }}
+<div class="container mb-5">
+
+    <!-- Multiple checkboxes option -->
+    <div class="btn-toolbar mb-2 bio" role="toolbar" aria-label="Toolbar with button groups">
+        <i class="fas fa-filter"></i>
+        <div id="filters" class="button-group">
+            {{ range $name, $taxonomy := .Site.Taxonomies.library_tags }}
+            {{ $btnid := $name | printf ".js-iso-%s"}}
+            <input type="checkbox" class="btn-check" id="{{ $btnid }}" autocomplete="off" data-filter="{{ $btnid }}">
+            <label class="button" for="{{ $btnid }}">{{ $name }}</label>  
+            {{ end }}
+        </div>
     </div>
-  </div>
 </div>
 
-<!-- Publication Cards -->
+<!-- Blog Post Cards -->
 <div class="container">
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="publications-list">
-    {{ range .Pages.ByPublishDate.Reverse }}
-      <div class="col iso-card {{ range .Params.tags }}js-iso-{{ urlize . }} {{ end }}">
+    <div class="row" data-masonry='{"percentPosition": true }' id="blogposts">
+        {{ range .Pages.ByPublishDate.Reverse }}
         {{ partial "card_book.html" . }}
-      </div>
-    {{ end }}
-  </div>
+        {{ end }}
+     </div>
 </div>
 
 {{ end }}
