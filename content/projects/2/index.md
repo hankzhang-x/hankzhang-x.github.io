@@ -1,7 +1,7 @@
 ---
 title: "Tide · Sound"
 date: 2023-07-21
-lastmod: 2024.11.11
+lastmod: 2024-11-11
 draft: false
 
 summary: "A Multisensory Soundscape Experience"
