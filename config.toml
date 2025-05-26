@@ -7,7 +7,8 @@ staticDir = ['asserts']
 
 [params]
   name = "Hank Zhang"
-  description = "A Human-Centered TechDesigner"
+  description = "A Human-Centered "
+  techdescription= "TechDesigner"
   initials = "HZ"
   googleAnalytics = ""
 
