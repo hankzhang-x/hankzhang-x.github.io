@@ -43,22 +43,23 @@ WeeHive won the 2023 Young Climate Prize, 2023 China Internet Plus Competition B
 ### Backend Design Document
 
 ```tsx
-app·WeeHive·
+app.WeeHive
 concepts
-    User·
-    Profile·[User.User]
-    Relationship·[User.User]
-    Session·[User.User]
-    Post·[User.User]
-    Reply·[Post.Post,·User.User]
-    Tag·[Post.Post·/·User.User]·//·how·to·define·a·concept·that·can·be·applied·to·both?
-    Favorite·[Post.Post]
-    Like·[Post.Post]
-    Map·
-    Marker·[User.User]·//·to·display·the·sentiment·calculated·from·reactions·for·each·post.
-    Location·[User.User]
-    Nearby·[User.User]
+    User
+    Profile [User.User]
+    Relationship [User.User]
+    Session [User.User]
+    Post [User.User]
+    Reply [Post.Post, User.User]
+    Tag [Post.Post / User.User] // how to define a concept that can be applied to both?
+    Favorite [Post.Post]
+    Like [Post.Post]
+    Map
+    Marker [User.User] // to display the sentiment calculated from reactions for each post.
+    Location [User.User]
+    Nearby [User.User]
 ```
+
 
 <img src="/images/project/7/12.png" style="max-width:100%"> </img>
 
